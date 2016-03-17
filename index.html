@@ -5,7 +5,7 @@
 
 <body>
 <script>
-var ws = new WebSocket("ws://localhost:8000");
+var ws = new WebSocket("ws://echowebsocketserver-jorgecardoso.rhcloud.com:8000");
 ws.onopen = function(evt) {
     ws.send("teste servidor ws");
 };
