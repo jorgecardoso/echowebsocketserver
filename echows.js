@@ -14,6 +14,7 @@ var server = http.createServer(function(request, response) {
 
 var ipaddress = process.env.OPENSHIFT_NODEJS_IP;
 var port      = process.env.OPENSHIFT_NODEJS_PORT || 8080;
+console.log(port);
 server.listen(port, function() {
     console.log((new Date()) + ' Server is listening on port ' + port);
 });
