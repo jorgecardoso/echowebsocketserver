@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-//http://cjihrig.com/blog/creating-your-own-websocket-echo-client/
+//http://cjihrig.com/blog/websockets-in-node-js-0-8-6-for-windows-7/
 
 var WebSocketServer = require('websocket').server;
 var http = require('http');

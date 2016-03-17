@@ -1,3 +1,3 @@
-The OpenShift `nodejs` cartridge documentation can be found at:
+An OpenShift nodejs echo websocket server.
 
-http://openshift.github.io/documentation/oo_cartridge_guide.html#nodejs
+Based on code from http://cjihrig.com/blog/websockets-in-node-js-0-8-6-for-windows-7/
