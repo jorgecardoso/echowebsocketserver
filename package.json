@@ -1,0 +1,33 @@
+{
+  "name": "Websocket-echo-server",
+  "version": "1.0.0",
+  "description": "Web socket echo server for OpenShift based on node.js and socket.io",
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "socket.io",
+    "openshift"
+  ],
+  "author": {
+    "name": "Jorge C. S. Cardoso",
+    "email": "jorgecardoso@ieee.org",
+    "url": "http://jorgecardoso.eu"
+  },
+  "homepage": "http://jorgecardoso.eu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jorgecardoso/echoserver-websocket"
+  },
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+  "dependencies": {
+    "websocket": "^1.0.22",
+
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+  "private": true,
+  "main": "echows.js"
+}

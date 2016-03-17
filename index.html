@@ -1,0 +1,20 @@
+<html>
+
+<head>
+</head>
+
+<body>
+<script>
+var ws = new WebSocket("ws://localhost:8000");
+ws.onopen = function(evt) {
+    ws.send("teste servidor ws");
+};
+
+ws.onmessage = function(evt) {
+    console.log(evt);
+};
+
+//var ws = new WebSocket("ws://127.0.0.1:3000/socket.io/websocket");
+</script>
+</body>
+</html>
