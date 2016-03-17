@@ -5,7 +5,6 @@
   "keywords": [
     "OpenShift",
     "Node.js",
-    "socket.io",
     "openshift"
   ],
   "author": {
@@ -16,7 +15,7 @@
   "homepage": "http://jorgecardoso.eu",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jorgecardoso/echoserver-websocket"
+    "url": "https://github.com/jorgecardoso/echowebsocketserver.git"
   },
   "engines": {
     "node": ">= 0.6.0",
